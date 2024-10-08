@@ -18,6 +18,7 @@ public class PUTRequest {
         responseSpecification = responseSpecBuilder.expectStatusCode(200).expectContentType(ContentType.JSON).build();
     }
 
+
     @Test
     public void PUTtest()
     {
